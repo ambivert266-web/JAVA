@@ -5,8 +5,9 @@ public class SquareNumber {
         Scanner Sc = new Scanner(System.in);
         System.out.println("enter value");
         int num = Sc.nextInt();
-        int Square = num + num;
+        int Square = num * num;
         System.out.println("SquareNumber" + Square);
 
     }
 }
+
